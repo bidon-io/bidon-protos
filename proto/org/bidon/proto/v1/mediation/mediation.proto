@@ -169,6 +169,9 @@ message BidExt {
 
   // Additional properties for the ad unit
   map<string, string> ext = 3;
+
+  // Fill timeout for the ad unit
+  optional int32 timeout = 4;
 }
 
 // Extend OpenRTB Bid object
