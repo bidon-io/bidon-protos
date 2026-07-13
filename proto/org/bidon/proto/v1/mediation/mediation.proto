@@ -172,6 +172,10 @@ message BidExt {
 
   // Fill timeout for the ad unit
   optional int32 timeout = 4;
+
+  // JSON-encoded DSP rendering configuration for the uSDK renderer.
+  // Same schema as REST ad_units[].rendering.
+  optional string rendering = 5;
 }
 
 // Extend OpenRTB Bid object
